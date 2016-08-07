@@ -1,17 +1,13 @@
-function PagesController($http) {
+function PagesController(PagesService) {
   var ctrl = this;
-  var API = "../pages.json";
+
   ctrl.allPages = {};
   ctrl.getPages = function () {
-    $http
-      .get(API)
+    PagesService
+      .getAllPages()
       .then(function(response){
-        console.log(response)
-        ctrl.allPages = response.data;
-        console.log(ctrl.allPages);
-      }, function(reason){
-        console.log(reason)
-      });
+        ctrl.allPages = response;
+      })
   };
   this.getPages();
 }
