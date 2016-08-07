@@ -11,9 +11,14 @@
 
   <body>
 
+    <div class="name-heading" ng-hide="search">
+        <h1 class="name-headline">Jared Arkin</h1>
+        <p class="name-description">Web Developer</p>
+    </div>
+
     <div ng-controller="PagesController as pages">
-      <ul>
-        <li ng-repeat="page in pages.allPages">
+      <ul ng-show="search">
+        <li ng-repeat="page in pages.allPages | filter: search">
           <p>{{ page.title }}: {{ page.tagline }}</p>
           <p>{{ page.content }}</p>
         </li>
