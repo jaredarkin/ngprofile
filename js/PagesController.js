@@ -1,7 +1,7 @@
 function PagesController(PagesService) {
   var ctrl = this;
 
-  ctrl.allPages = {};
+  ctrl.allPages = [];
   ctrl.getPages = function () {
     PagesService
       .getAllPages()
