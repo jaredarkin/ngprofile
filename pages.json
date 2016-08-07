@@ -1,0 +1,73 @@
+[
+  {
+    "title": "About Me",
+    "tagline": "",
+    "snippet": "about",
+    "photoUrl": "http://www.placebear.com/200/200",
+    "thumbnail": "",
+    "content": "This is the story all about how my life got flipped turned upside down.",
+    "tags": ["about", "hobbies", "bowling", "richmond", "virginia"]
+  },
+  {
+    "title": "My Website",
+    "tagline": "You're looking at it",
+    "snippet": "profile",
+    "photoUrl": "",
+    "thumbnail": "",
+    "content": "Built with Angular 1.x, this site is my minimalist approach to a personal, portfolio site.",
+    "skills": ["angular", "JSON", "bootstrap"],
+    "tags": ["portfolio", "profile", "angular", "jared", "arkin"]
+  },
+  {
+    "title": "Contact Me",
+    "tagline": "Get in Touch",
+    "snippet": "contact",
+    "photoUrl": "http://www.placebear.com/200/200",
+    "thumbnail": "",
+    "content": "",
+    "links": [
+      {"name": "Twitter", "url": "https://twitter.com/_jaredarkin_"},
+      {"name": "Github", "url": "https://github.com/jaredarkin"},
+      {"name": "Email", "url": "mailto:arkinjb@gmail.com"},
+      {"name": "LinkedIn", "url": "https://www.linkedin.com/in/jaredarkin"}
+    ],
+    "tags": ["contact", "information", "twitter", "github", "email", "phone", "resume"]
+  },
+  {
+    "title": "Green Thumb Garden Designer",
+    "tagline": "MEAN stack garden layout designer",
+    "snippet": "green-thumb",
+    "photoUrl": "http://www.placebear.com/200/200",
+    "thumbnail": "",
+    "content": "Built using the MEAN stack, the garden designer app allows the user to create a one-of-a-kind garden layout using simple drag and drop gestures. The garden options take advantage of AngularJS's two-way data binding to instantly change the layout according to user input. Multiple Bootstrap components are used including accordions, popovers, and modals.",
+    "links": [
+      {"name": "Green Thumb Garden Designer", "url": "https://green-thumb-design.herokuapp.com/"},
+      {"name": "Github Repo", "url": "https://github.com/jaredarkin/garden-planner"}
+    ],
+    "skills": ["angularJS", "boostrap", "modals", "MEAN stack", "MongoDB", "AngularUI", "drag and drop", "node", "express"],
+    "tags": ["green", "thumb", "garden", "designer", "planner", "layout", "mean", "angular", "drag and drop"]
+  },
+  {
+    "title": "Photos of Paul",
+    "tagline": "Ruby on Rails photo sharing app",
+    "snippet": "photos-of-paul",
+    "photoUrl": "http://www.placebear.com/200/200",
+    "thumbnail": "",
+    "content": "This Ruby on Rails photo sharing app is dedicated to guys named Paul. Create an account to comment and favorite photos from the gallery or even upload your own to Amazon Web Services. The app uses various Ruby gems for user authorization (Cancancan), password hashing (Bcrypt), and file upload (Paperclip).",
+    "links": [
+      {"name": "Photos of Paul", "url": "http://photos-of-paul.herokuapp.com/"},
+      {"name": "Github Repo", "url": "https://github.com/jaredarkin/photos_of_paul_db"}
+    ],
+    "skills": ["Ruby on Rails", " Ruby gems", "flexbox", "user authentication", "user authorization", "AWS"],
+    "tags": ["ruby", "rails", "ruby on rails", "photos", "devise", "AWS"]
+  },
+  {
+    "title": "Upcoming Projects",
+    "tagline": "A ToDo List",
+    "snippet": "upcoming",
+    "photoUrl": "",
+    "thumbnail": "",
+    "content": "",
+    "tags": ["todo", "upcoming", "projects", "future"]
+  }
+]
